@@ -22,20 +22,22 @@
         </fieldset>
         <fieldset>
             <legend>Kiszállítás ideje</legend>
+            <label for="datum">Kiszállítás napja:</label>
+            <label for="ido">Kiszállítás időpontja:</label>
             <input type="radio" name="aznapi" id="aznap"> Kiszállítás a mai napra
             <br>
             <input type="radio" name="aznapi" id="masnap"> Kiszállítás másik napra
             <br>
             <p>Amennyiben másik napra szeretné, válassza ki a dátumot és az időt</p>
-            <input type="date">
+            <input type="date" id="datum">
             <br>
-            <input type="time">
+            <input type="time" id="ido">
 
         </fieldset>
         <fieldset>
             <legend>A vevő adatai</legend>
-            <p>Név:</p>
-            <input type="text" value="Az Ön neve">
+            <label for="Nev">Név:</label>
+            <input type="text" id="Nev" placeholder="Az Ön neve">
         </fieldset>
 
     </form>
