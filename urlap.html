@@ -11,20 +11,30 @@
     <form>
 
         <fieldset>
-            <legend>Válassza ki a kenyér típusát!</legend>
-            <select name="Válassza ki a kenyér tipusát">
+            <legend>Kenyér tipusa</legend>
+            <label for="tipus">Válassza ki a kenyér tipusát!</label>
+            <select id="tipus">
                 <option>---Válasszon!---</option>
                 <option>Fehér kenyér</option>
                 <option>Barna kenyér</option>
                 <option>Rozskenyér</option>
                 <option>Teljes kiőrlésű kenyér</option>
+            <br>
+            <label for="mag">Választható magvak a kenyér tetejére</label>
+            <br>
+            <input type="checkbox" id="mag"> Napraforgómag
+            <input type="checkbox"> Korpa
+            <input type="checkbox"> Tökmag
+            <input type="checkbox"> Szezámmag
+
             </select>
+
         </fieldset>
         <fieldset>
             <legend>Kiszállítás ideje</legend>
-            <input type="radio" name="aznapi" id="aznap"> Kiszállítás a mai napra
+            <input type="radio" id="aznap"> Kiszállítás a mai napra
             <br>
-            <input type="radio" name="aznapi" id="masnap"> Kiszállítás másik napra
+            <input type="radio" id="masnap"> Kiszállítás másik napra
             <br>
             <p>Amennyiben másik napra szeretné, válassza ki a dátumot és az időt</p>
             <label for="datum">Kiszállítás napja:</label>
