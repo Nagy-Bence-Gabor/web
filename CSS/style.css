@@ -9,9 +9,3 @@ nav a:hover {
     background-color: rgba(212, 138, 0, 0.399);
     font-weight: bold;
 }
-
-nav a:active {
-    color: black;
-    font-weight: bold;
-    background-color: orange;
-}
