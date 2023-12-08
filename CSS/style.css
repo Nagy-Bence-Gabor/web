@@ -20,3 +20,14 @@ nav a:hover {
     text-align: center;
     color: grey;
 }
+
+#email {
+    color: orange;
+    transition: 0.7s;
+}
+
+#email:hover {
+    color: orangered;
+    background-color: rgba(212, 138, 0, 0.399);
+    font-weight: bold;
+}
