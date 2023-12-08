@@ -9,3 +9,9 @@ nav a:hover {
     background-color: rgba(212, 138, 0, 0.399);
     font-weight: bold;
 }
+
+#lentivonal {
+    margin: auto;
+    width: 90%;
+    color: gray;
+}
