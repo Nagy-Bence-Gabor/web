@@ -31,3 +31,42 @@ nav a:hover {
     background-color: rgba(212, 138, 0, 0.399);
     font-weight: bold;
 }
+
+.div1 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.div2 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.div3 {
+    clear: both;
+    width: 220px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px 10px 10px 10px;
+    transition: 0.5s;
+}
+
+.div1:hover {
+    transform: scale(1.1);
+}
+
+.div2:hover {
+    transform: scale(1.1);
+}
+
+.div3:hover {
+    transform: scale(1.1);
+}
