@@ -70,3 +70,17 @@ nav a:hover {
 .div3:hover {
     transform: scale(1.1);
 }
+
+.evszakdiv {
+    float: left;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: black;
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+.evszakkep {
+    width: 256px;
+}
