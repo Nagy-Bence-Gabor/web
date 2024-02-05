@@ -74,14 +74,26 @@ nav a:hover {
 .evszakdiv {
     float: left;
     padding: 10px;
-    margin: auto 10px 10px auto;
+    margin: 10px auto 10px auto;
     background-color: black;
-    color: orange;
     border: 2px solid orange;
+    transition: 0.5s;
 }
 
 
 .evszakkep {
     display: block;
     width: 256px;
+    transition: 0.5s;
+}
+
+.evszakszov {
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.evszakdiv:hover, .evszakkep:hover, .evszakszov:hover {
+    transform: scale(1.1);
+    font-weight: bolder;
 }
