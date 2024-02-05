@@ -74,7 +74,7 @@ nav a:hover {
 .evszakdiv {
     float: left;
     padding: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: auto 10px 10px auto;
     background-color: black;
     color: orange;
     border: 2px solid orange;
