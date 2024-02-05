@@ -82,5 +82,6 @@ nav a:hover {
 
 
 .evszakkep {
+    display: block;
     width: 256px;
 }
