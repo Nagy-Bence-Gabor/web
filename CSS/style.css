@@ -83,6 +83,7 @@ nav a:hover {
 
 .nagydiv {
     margin: auto;
+    position: absolute;
 }
 
 .evszakkep {
