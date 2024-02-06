@@ -81,6 +81,9 @@ nav a:hover {
     transition: 0.5s;
 }
 
+.nagydiv {
+    margin: auto;
+}
 
 .evszakkep {
     display: block;
