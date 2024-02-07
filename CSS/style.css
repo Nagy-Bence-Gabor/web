@@ -74,20 +74,15 @@ nav a:hover {
 .evszakdiv {
     width: 20%;
     text-align: center;
-    padding: 10px;
-    display: inline-block;
-    margin: auto;
+    margin: 20px 20px 20px 20px;
     background-color: black;
     border: 2px solid orange;
     transition: 0.5s;
 }
 
 .nagydiv {
-    width: 100%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center
 }
 
 .evszakkep {
