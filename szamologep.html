@@ -16,6 +16,105 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="keplink.html">KÉPLINK FELADAT</a> |
+        <a href="lista.html">LISTA FELADAT</a> |
+        <a href="tablazat.html">TÁBLÁZAT FELADAT</a> |
+        <a href="urlap.html">ŰRLAP FELADAT</a> |
+        <a href="div.html">DIV FELADAT</a> |
+        <a href="evszakok.html">ÉVSZAKOK FELADAT</a> |
+        <a href="szamologep.html">SZÁMOLÓGÉP FELADAT</a>
+    </nav>
+
+    <div class="szamgep" onclick="osszeadas()"><h2>Összeadás</h2></div>
+    <div class="szamgep" onclick="kivonas()"><h2>Kivonás</h2></div>
+    <div class="szamgep" onclick="szorzas()"><h2>Szorzás</h2></div>
+    <div class="szamgep" onclick="osztas()">Osztás</div>
+
+    <script>
+        function osszeadas() {
+            let szam1 , szam2 , eredmeny ;
+
+            szam1 = Number(prompt("Adja meg az első számot!")) ;
+            while (Number.isNaN(szam1)) {
+                szam1 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            szam2 = Number(prompt("Adja meg a második számot!")) ;
+            while (Number.isNaN(szam2)) {
+                szam2 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            eredmeny = szam1 + szam2
+
+            alert ("A két szám összege:" + eredmeny)
+        }
+
+        function kivonas() {
+            let szam1 , szam2 , eredmeny ;
+
+            szam1 = Number(prompt("Adja meg az első számot!")) ;
+            while (Number.isNaN(szam1)) {
+                szam1 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            szam2 = Number(prompt("Adja meg a második számot!")) ;
+            while (Number.isNaN(szam2)) {
+                szam2 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            eredmeny = szam1 - szam2
+
+            alert ("A két szám különbsége:" + eredmeny)
+        }
+
+        function szorzas() {
+            let szam1 , szam2 , eredmeny ;
+
+            szam1 = Number(prompt("Adja meg az első számot!")) ;
+            while (Number.isNaN(szam1)) {
+                szam1 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            szam2 = Number(prompt("Adja meg a második számot!")) ;
+            while (Number.isNaN(szam2)) {
+                szam2 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            eredmeny = szam1 * szam2
+
+            alert ("A két szám szorzata:" + eredmeny)
+        }
+
+        function osztas() {
+            let szam1 , szam2 , eredmeny ;
+
+            szam1 = Number(prompt("Adja meg az első számot!")) ;
+            while (Number.isNaN(szam1)) {
+                szam1 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            szam2 = Number(prompt("Adja meg a második számot!")) ;
+            while (Number.isNaN(szam2)) {
+                szam2 = Number(prompt("Számot adjon meg!")) ;
+            }
+
+            eredmeny = szam1 / szam2
+
+            alert ("A két szám hányadosa:" + eredmeny)
+        }
+    </script>
+
+    <footer>
+        <hr id="lentivonal">
+        <p id="footszov">
+            Nagy Bence Gábor <br>
+         <a href="mailto:nagyb2@kkszki.hu" id="email">nagyb2@kkszki.hu</a>
+        </p>
+        <p id="footszov">
+           2024/02/27/C2
+     </p>
+    </footer>
 </body>
 </html>
