@@ -101,3 +101,16 @@ nav a:hover {
     transform: scale(1.075);
     font-weight: bolder;
 }
+
+.szamgep {
+    width: 20%;
+    text-align: center;
+    background-color: black;
+    border: 2px solid orange;
+    color: orange;
+    transition: 0.5s;
+}
+
+.szamgep:hover {
+    transform: scale(1.075);
+}
