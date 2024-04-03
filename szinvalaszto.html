@@ -26,17 +26,31 @@
         <a href="div.html">DIV FELADAT</a> |
         <a href="evszakok.html">ÉVSZAKOK FELADAT</a> |
         <a href="szamologep.html">SZÁMOLÓGÉP</a> |
-        <a href="szinvalaszto.html">SZÍNVÁLASZTÓ</a>
+        <a href="szinvalaszto.html">SZÍNVÁLASZTÓ</a> |
+        <a href="kepcserelo.html">KÉPCSERÉLŐ</a>
     </nav>
 
     <h1>Színválasztó</h1>
-    <p>Válaszd ki a kedvenc színed!</p>
-    <input type="color" name="szinvalaszto" id="valaszto" onchange="szin()">
+    <p>Válasszon szövegszínt!</p>
+    <input type="color" name="szovegszinvalaszto" id="szovegszinvalaszto" onchange="szovegszin()">
+    <p>Válasszon háttérszínt!</p>
+    <input type="color" name="hattervalaszto" id="hattervalaszto" onchange="hatterszin()">
+    <input type="text" name="neviro" id="neviro" placeholder="Írja be a nevét!" onchange="neviras">
+    <p id="nev"></p>
 
     <script>
-        function szin() {
-            document.body.style.color=valaszto.value;
+        function szovegszin() {
+            document.body.style.color=szovegszinvalaszto.value;
         }
+
+        function hatterszin() {
+            document.body.style.backgroundColor=hattervalaszto.value
+        }
+
+        function neviras() {
+            document.getElementById("nev").innerHTML="Helló, " +neviro.value 
+        }
+
 
 
         
@@ -49,7 +63,7 @@
             <a href="mailto:nagyb2@kkszki.hu" id="email">nagyb2@kkszki.hu</a>
         </p>
         <p id="footszov">
-            2024/03/06/C2
+            2024/04/02/C1
         </p>
     </footer>
 </body>
